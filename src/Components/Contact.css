@@ -1,0 +1,54 @@
+.Contact_Main{
+    color: white;
+    /* border: 5px solid blueviolet; */
+    margin-bottom: 50px;
+}
+
+.Contact_Content{
+    margin: 0px 100px;
+    /* border: 5px solid cyan; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter:blur(4px) brightness(110%);
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.Contact_Box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    /* border: 5px solid black; */
+    width: 100%;
+}
+
+.Contact_Social{
+    width: 25%;
+    /* border: 5px solid rgb(252, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact_Social_Box{
+    margin-top: 20px;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+.Contact_Social_Box_Icon{
+    width: 50px;
+    margin: 0px 20px;
+}
+
+.Contact_Direct_Email{
+    width: 75%;
+    /* border: 5px solid rgb(47, 0, 255); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

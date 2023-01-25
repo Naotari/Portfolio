@@ -1,0 +1,13 @@
+.Home_Main{
+    display: flex;
+}
+
+.Home_NavBar{
+    position: fixed;
+}
+.Home_Content{
+    margin-left: 250px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+}

@@ -1,0 +1,19 @@
+.NavBar_Main {
+    background-color: rgb(0, 145, 150, 0.5);
+    width: 250px;
+    height: 100vh;
+    backdrop-filter:blur(5px) brightness(110%);
+    box-shadow: 0px 0px 10px black;
+}
+
+.NavBar_Links_Box{
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.NavBar_Button{
+    Text-decoration: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
