@@ -5,6 +5,7 @@
 
 .Project2_Content{
     margin: 0px 100px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     backdrop-filter:blur(4px) brightness(110%);
@@ -75,4 +76,30 @@
 
 .Project2_Github_Title{
     color: black;
+}
+
+@media only screen and (max-width: 1480px) {
+    .Project2_Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Project2_Image{
+        height: auto;
+        width: 100%;
+    }
+    .Project2_information{
+        margin-top: 30px;
+     }
+}
+
+@media only screen and (max-width: 1345px) {
+    .Project2_Box{
+        align-items: center;
+    }
+    .Project2_Image_box{
+        width: 80%;
+    }
+    .Project2_information{
+        width: 85%;
+     }
 }

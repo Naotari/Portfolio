@@ -5,6 +5,7 @@
 
 .Project3_Content{
     margin: 0px 100px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     backdrop-filter:blur(4px) brightness(110%);
@@ -75,4 +76,30 @@
 
 .Project3_Github_Title{
     color: black;
+}
+
+@media only screen and (max-width: 1480px) {
+    .Project3_Box{
+        display: flex;
+        flex-direction: column;
+    }
+    .Project3_Image{
+        height: auto;
+        width: 100%;
+    }
+    .Project3_information{
+        margin-top: 30px;
+     }
+}
+
+@media only screen and (max-width: 1345px) {
+    .Project3_Box{
+        align-items: center;
+    }
+    .Project3_Image_box{
+        width: 80%;
+    }
+    .Project3_information{
+        width: 85%;
+     }
 }

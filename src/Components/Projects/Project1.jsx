@@ -18,7 +18,7 @@ const Project1 = () => {
                         <h1 className="Project1_Github_Title">github</h1>
                         </a>
                         <p>
-                            A consencinary located in the most visited tourist cities in Latin America where 
+                            A concessionary located in the most visited tourist cities in Latin America where 
                             you can rent the vehicle you like from our catalog. <br></br>
                             This website was created as a group in a period of 4 weeks, with a sprint each week.
                         </p>

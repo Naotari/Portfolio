@@ -11,3 +11,22 @@
     scroll-behavior: smooth;
     height: 100vh;
 }
+
+@media only screen and (max-width: 1345px) {
+    .Home_Main{
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .Home_NavBar{
+        position: static;
+        z-index: 2;
+    }
+    .Home_Content{
+        margin-left: 0px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
+        height: 100vh;
+        z-index: 1;
+    }
+}

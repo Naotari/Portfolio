@@ -13,8 +13,8 @@ const About = () => {
                 <p className="About_First_Paragraph">
                     My name is Frandel Rodriguez, I'm 26, and I'm a Full Stack Developer. <br/>
                     I am a person who is interested in technology and in 2022 I wanted to learn another branch of technology. <br/>
-                    I studied in Henry the Full Stack Developer, it was a +800h of learning and practice.
-                    I learned how to create a full application based on Node.js and React.js, also we learn soft skills like work team. <br/>
+                    I studied in Henry the Full Stack Developer career, it was a +800h course of learning and practice.
+                    I learned how to create a full application based on Node.js and React.js, also we learn soft skills like Teamwork and Adaptability. <br/>
                 </p>
             </div>
         </div>

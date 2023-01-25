@@ -6,7 +6,6 @@
 
 .Skills_Content{
     margin: 0px 100px;
-    /* border: 5px solid cyan; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,15 +22,52 @@
 }
 
 .Skills_Tech_Box{
- width: 50%;
- margin: 0px 30px;
- /* border: 5px solid cyan; */
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0px 30px;
+    /* border: 5px solid cyan; */
+}
 
+.Skills_Tech_Box_Group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* border: 5px solid cyan; */
+    width: 100%;
+}
+
+.Skills_Tech_Box_frame{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 8px;
+    /* border: 1px solid black; */
+}
+
+.Skills_Tech_Box_frame_Text{
+    position: absolute;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 0.4s;
+    /* border: 5px solid black; */
+    border-radius: 8px;
+}
+.Skills_Tech_Box_frame_Text:hover{
+    opacity: 1;
+    backdrop-filter:blur(2px) brightness(50%);
 }
 
 .Skill_Tech_Logos{
-    margin: 10px;
     height: 80px;
+    background-color: white;
+    border-radius: 8px;
 }
 
 .Skill_Soft_Box{
@@ -48,4 +84,12 @@
     flex-direction: column;
     flex-wrap: wrap;
     /* border: 5px solid cyan; */
+}
+
+@media only screen and (max-width: 1345px) {
+    .Skill_Soft_Box{
+        height: 100%;
+    }.Skill_Soft_Box_List_Text{
+        margin: 10px;
+    }
 }
