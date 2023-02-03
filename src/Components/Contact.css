@@ -52,3 +52,38 @@
     flex-direction: column;
     align-items: center;
 }
+
+.Contact_Direct_Email_Form{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    width: 100%;
+}
+
+.Contact_Direct_Email_Form_Email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.Contact_Direct_Email_Form_Email_Box{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Contact_Direct_Email_Form_Message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.Contact_Direct_Email_Form_Message_Box {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
