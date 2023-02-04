@@ -15,27 +15,27 @@ const Skills = () => {
                         <h3>Tech Skills</h3>
                         <div className="Skills_Tech_Box_Group">
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/HTML5.png" alt="html" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="html" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">HTML</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/CSS.png" alt="css" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="css" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">CSS</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/JavaScript.png" alt="javascript" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">JavaScript</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/Node.js.png" alt="node" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="node" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">Node</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575055/Portfolio/Tecnologies/React.js.png" alt="react" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="react" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">React</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575055/Portfolio/Tecnologies/Redux.js.png" alt="redux" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="redux" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">Redux</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
@@ -43,15 +43,15 @@ const Skills = () => {
                                 <p className="Skills_Tech_Box_frame_Text">Cloudinary</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/Sequelize.png" alt="sequelize" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg" alt="sequelize" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">Sequelize</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/PostgreSQL.png" alt="postgresql" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="postgresql" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">PostgreSQL</p>
                             </div>
                             <div className="Skills_Tech_Box_frame">
-                                <img src="https://res.cloudinary.com/dyiymsxec/image/upload/v1674575054/Portfolio/Tecnologies/npm.png" alt="npm" className="Skill_Tech_Logos"></img>
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" className="Skill_Tech_Logos"/>
                                 <p className="Skills_Tech_Box_frame_Text">npm</p>
                             </div>
                         </div>

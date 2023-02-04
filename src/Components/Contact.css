@@ -87,3 +87,15 @@
     height: 100px;
     border-radius: 10px;
 }
+
+.Contact_Direct_Email_button {
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    transition-duration: 0.2s;
+}
+
+.Contact_Direct_Email_button:hover{
+    box-shadow: rgb(0, 255, 42) 1px 0 10px;
+}
