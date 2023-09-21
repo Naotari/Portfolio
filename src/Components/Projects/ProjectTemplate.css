@@ -1,9 +1,9 @@
-.Project4_Main{
+.ProjectTemplate_Main{
     margin: 50px 0px;
     color: white;
 }
 
-.Project4_Content{
+.ProjectTemplate_Content{
     margin: 0px 100px;
     padding: 30px;
     display: flex;
@@ -15,25 +15,24 @@
     border: 1px solid black;
 }
 
-.Project4_Box{
+.ProjectTemplate_Box{
     display: flex;
 }
 
-.Project4_Image_box{
+.ProjectTemplate_Image_box{
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 720px;
 }
 
-.Project4_Image{
+.ProjectTemplate_Image{
     height: 350px;
     border-radius: 20px;
     transition-duration: 0.4s;
 }
 
-.Project4_Image_Text{
+.ProjectTemplate_Image_Text{
     position: absolute;
     font-size: 70px;
     color: rgb(255, 255, 255);
@@ -47,15 +46,15 @@
     border-radius: 20px;
 }
 
-.Project4_Image_Text:hover{
+.ProjectTemplate_Image_Text:hover{
     opacity: 1;
     backdrop-filter:blur(5px) brightness(50%);
 }
 
-.Project4_information{
+.ProjectTemplate_information{
    margin-left: 50px;
 }
-.Project4_GitHub_Box{
+.ProjectTemplate_GitHub_Box{
     display: flex;
     align-items: center;
     border: 2px solid white;
@@ -65,41 +64,41 @@
     width: 180px;
     transition-duration: 0.2s;
 }
-.Project4_GitHub_Box:hover{
+.ProjectTemplate_GitHub_Box:hover{
     box-shadow: rgb(0, 255, 42) 1px 0 10px;
 }
 
-.Project4_Github_Logo{
+.ProjectTemplate_Github_Logo{
     width: 50px;
     margin: 0px 10px;
 }
 
-.Project4_Github_Title{
+.ProjectTemplate_Github_Title{
     color: black;
 }
 
 @media only screen and (max-width: 1480px) {
-    .Project4_Box{
+    .ProjectTemplate_Box{
         display: flex;
         flex-direction: column;
     }
-    .Project4_Image{
+    .ProjectTemplate_Image{
         height: auto;
-        height: 300px;
+        width: 100%;
     }
-    .Project4_information{
+    .ProjectTemplate_information{
         margin-top: 30px;
      }
 }
 
 @media only screen and (max-width: 1345px) {
-    .Project4_Box{
+    .ProjectTemplate_Box{
         align-items: center;
     }
-    .Project4_Image_box{
+    .ProjectTemplate_Image_box{
         width: 80%;
     }
-    .Project4_information{
+    .ProjectTemplate_information{
         width: 85%;
      }
 }

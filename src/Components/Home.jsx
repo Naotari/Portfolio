@@ -4,10 +4,8 @@ import NavBar from "./NavBar"
 import About from "./About"
 import Skills from "./Skills"
 import Contact from "./Contact"
-import Project1 from "./Projects/Project1"
-import Project2 from "./Projects/Project2"
-import Project3 from "./Projects/Project3"
-import Project4 from "./Projects/Project4"
+import ProjectTemplate from "./Projects/ProjectTemplate";
+import allProjects from "./Projects/AllProjects"
 
 const Home = () => {
 
@@ -19,10 +17,10 @@ const Home = () => {
             <div className="Home_Content">
                 <About/>
                 <Skills/>
-                <Project1/>
-                <Project2/>
-                <Project3/>
-                <Project4/>
+                <ProjectTemplate Project={allProjects.project1}/>
+                <ProjectTemplate Project={allProjects.project2}/>
+                <ProjectTemplate Project={allProjects.project3}/>
+                <ProjectTemplate Project={allProjects.project4}/>
                 <Contact/>
             </div>
         </div>
