@@ -43,6 +43,7 @@ const NavBar = () => {
             <a href="#Project1" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Project 1</p></a>
             <a href="#Project2" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Project 2</p></a>
             <a href="#Project3" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Project 3</p></a>
+            <a href="#Project4" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Project 4</p></a>
             <a href="#Contact" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Contact</p></a>
         </div>
     );
@@ -53,6 +54,7 @@ const NavBar = () => {
             <a href="#Project1" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Proyecto 1</p></a>
             <a href="#Project2" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Proyecto 2</p></a>
             <a href="#Project3" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Proyecto 3</p></a>
+            <a href="#Project4" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Proyecto 4</p></a>
             <a href="#Contact" className="NavBar_Button" onClick={menuOptionChangeHandler}><p>Contacto</p></a>
         </div>
     );
